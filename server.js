@@ -5,6 +5,6 @@ const app = require('./app');
 const server = http.createServer(app);
 
 console.log('Funcionando');
-console.log(port);
+console.log('port');
 
 server.listen(port);
