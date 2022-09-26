@@ -5,7 +5,7 @@ const app = require('./app');
 
 const server = http.createServer(app);
 server.listen(port,host, ()=> {
-    console.log(`Server is running on http://${host}:${port}`);
+    console.log(`Server is running on http://${host}:${port}  TESTANDO PULL`);
 });
 
 console.log('Funcionando');
